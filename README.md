@@ -7,12 +7,15 @@ Install latest Python version on Mac OS
 Install latest Java (Spark requires Java 7+)
 
 ## Spark
-```
 Download Spark binaries
+
 Follow steps 1, 2 and 3 to download .tgz file
+
 Extract archive and placed in ~/Applications
 
-tar -xzf **spark-2.1.1-bin-hadoop2.7.tgz**
+```
+tar -xzf spark-2.1.1-bin-hadoop2.7.tgz
+```
 
 ~/Applications/spark-2.1.0-bin-hadoop2.7/bin/pyspark
 
