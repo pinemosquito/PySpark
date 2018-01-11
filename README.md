@@ -1,4 +1,4 @@
-# Getting started with Spark
+# Getting started with PySpark
 
 ## Spark is a cluster computing framework for large-scale data processing. 
 
