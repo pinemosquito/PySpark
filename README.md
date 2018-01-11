@@ -16,3 +16,11 @@ brew install sbt
 go to directory you unzip spark
 
 sbt assembly
+
+## Environment
+Specify location of Spark and special arguments in Environment
+Use nano or vim to open ~/.bash_profile and add the following lines at the end:
+
+export SPARK_HOME="$HOME/spark-1.5.1"
+export PYSPARK_SUBMIT_ARGS="--master local[2]"
+Replace "$HOME/spark-1.5.1" with the location of the folder you unzipped Spark to (and also make sure the version numbers match!).
