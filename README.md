@@ -1,7 +1,18 @@
 # Getting started with PySpark
 
-## Spark is a cluster computing framework for large-scale data processing. 
+## Install Anaconda
 
-```
-Download a pre-built version of Spark
-http://shinyfeather.com/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz
+## Jave7+ 
+### Spark requires Java7+ which you can download from Oracle's website
+
+## Download Spark
+Go to Spark download page
+Follow steps 1, 2 and 3 to download .tgz file
+Unzip folder and move to home directory
+
+## Scala build tool
+brew install sbt
+
+go to directory you unzip spark
+
+sbt assembly
