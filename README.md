@@ -1,29 +1,23 @@
 # Getting started with PySpark
 
-## Install Anaconda
+## Python3
+Install latest Python version on Mac OS
 
 ## Java7+ 
-Spark requires Java7+ which you can download from Oracle's website
+Install latest Java (Spark requires Java 7+)
 
-## Download Spark
-Go to Spark download page
+## Spark
+Download Spark
 Follow steps 1, 2 and 3 to download .tgz file
-Unzip folder and move to home directory
+Unzip folder and to home directory
 
-## Scala build tool
-brew install sbt
+tar -xzf *spark-2.1.1-bin-hadoop2.7.tgz*
 
-go to directory you unzip spark
-
-sbt assembly
-
-## Environment
+## Add Anaconda and Spark binaries to path
 ```
-Specify location of Spark and special arguments in Environment
-Use nano or vim to open ~/.bash_profile and add the following lines at the end:
+export PATH="/Users/jit/Dev/anaconda/bin:$PATH"
+export SPARK_HOME="/Users/jit/Dev/spark-2.1.1-bin-hadoop2.7"
+export PATH=$SPARK_HOME/bin:$PATH
 
-export SPARK_HOME="$HOME/spark-1.5.1"
-export PYSPARK_SUBMIT_ARGS="--master local[2]"
-Replace "$HOME/spark-1.5.1" with the location of the folder you unzipped Spark to 
-Make sure the version numbers match!).
 ```
+
