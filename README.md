@@ -11,7 +11,7 @@ Download Spark
 Follow steps 1, 2 and 3 to download .tgz file
 Unzip folder and to home directory
 
-tar -xzf *spark-2.1.1-bin-hadoop2.7.tgz*
+tar -xzf **spark-2.1.1-bin-hadoop2.7.tgz**
 
 ## Add Anaconda and Spark binaries to path
 ```
