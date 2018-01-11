@@ -19,11 +19,14 @@ tar -xzf spark-2.1.1-bin-hadoop2.7.tgz
 
 ~/Applications/spark-2.1.0-bin-hadoop2.7/bin/pyspark
 
-## Add Anaconda and Spark binaries to path
-```
-export PATH="/Users/jit/Dev/anaconda/bin:$PATH"
-export SPARK_HOME="/Users/jit/Dev/spark-2.1.1-bin-hadoop2.7"
-export PATH=$SPARK_HOME/bin:$PATH
+## Environment
+Set environment variable by adding following lines to ~/.bash_profile:
 
 ```
+export SPARK_HOME="/Users/user/Applications/spark"
+export PYSPARK_SUBMIT_ARGS="--master local[2]"
+# Make pyspark available anywhere
+export PATH="$SPARK_HOME/bin:$PATH"
+```
+
 
