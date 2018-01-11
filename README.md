@@ -2,8 +2,8 @@
 
 ## Install Anaconda
 
-## Jave7+ 
-### Spark requires Java7+ which you can download from Oracle's website
+## Java7+ 
+Spark requires Java7+ which you can download from Oracle's website
 
 ## Download Spark
 Go to Spark download page
